@@ -1,0 +1,45 @@
+body {font-family: arial;}
+a {text-decoration: none;}
+h2 {font-size: 20px;}
+#to-top {
+	position: fixed;
+	bottom: 0px;
+	right: 20px;
+}
+#to-top a {
+	width: 40px;
+	display: block;
+	color: #bbb;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#to-top a:hover {
+	color: #000;
+}
+/* arrow icon */
+#to-top span {
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-bottom: 7px;
+	background: #26456e  url(up-arrow.png) no-repeat center center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#to-top a:hover span {
+	background-color: #00bfab;
+}
+p{
+	text-align:justify;
+	color: teal;
+
+}
+h1{
+	text-align: center;
+	color:teal;
+}
